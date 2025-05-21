@@ -8,21 +8,23 @@
   </head>
   <body>
     <div id="formContainer">
-      <form action="" id="form">
+      <form action="" id="form" novalidate>
         <label for="email">Email</label>
-        <input type="text" name="email" id="email" />
+        <input type="email" name="email" id="email" />
 
         <label for="country">Country</label>
-        <input type="text" name="country" id="country" />
+        <select name="" id="country"></select>
 
         <label for="postal">Postal Code</label>
-        <input type="text" name="postal" id="postal" />
+        <input type="number" name="postal" id="postal" min="4" max="4" />
 
         <label for="password">Password</label>
-        <input type="text" name="password" id="password" />
+        <input type="password" name="password" id="password" />
 
-        <label for="passwordConfirm">Password Confirmatio</label>
-        <input type="text" name="passwordConfirm" id="passwordConfirm" />
+        <label for="passwordConfirm">Password Confirmation</label>
+        <input type="password" name="passwordConfirm" id="passwordConfirm" />
+
+        <button type="submit" id="submitBtn">Submit</button>
       </form>
     </div>
     <script src="index.js"></script>

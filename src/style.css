@@ -19,3 +19,9 @@
   justify-content: center;
   margin-bottom: 15px;
 }
+
+#submitBtn {
+  background-color: bisque;
+  border: 1px solid black;
+  margin-top: 15px;
+}
